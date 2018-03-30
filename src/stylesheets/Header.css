@@ -1,9 +1,56 @@
-.Header {
-  background-color: black;
+.header {
+  position: sticky;
+  display: block;
+  background-color: #e5e2e2;
+  width: 100%;
+  border: solid black;
+}
+
+.header-half {
+  display: inline-block;
+  width: 50%;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-options {
+  display: inline-block;
+  text-align: center;
+}
+
+.header-sidebar {
+  display: inline-block;
+  padding: 0;
 }
 
 ul.header-sidebar li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
+  display: inline-block;
+  background-color: black;
+  border: solid black;
+  border-radius: 5px;
+
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ul.header-sidebar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 7px 10px 7px;
+}
+
+.header-icons {
+  display: inline-block;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.header-icons a {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: black;
 }

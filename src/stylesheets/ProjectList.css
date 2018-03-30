@@ -1,0 +1,19 @@
+.project-list {
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+}
+
+.project-list-title {
+  display: inline-block;
+  border-bottom: solid black 3px;
+}
+
+/* TODO remove?
+.home-body {
+  display: block;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+*/
