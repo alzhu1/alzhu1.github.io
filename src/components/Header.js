@@ -17,7 +17,7 @@ class Header extends Component {
             <ul className="header-sidebar">
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/projects">Projects</NavLink></li>
-              <li><NavLink to="/">History</NavLink></li>
+              <li><NavLink to="/history">History</NavLink></li>
             </ul>
           </div>
 
@@ -30,7 +30,7 @@ class Header extends Component {
               <i className="fa fa-linkedin"></i>
             </a>
           </div>
-          
+
         </div>
       </div>
     );
