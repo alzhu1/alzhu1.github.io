@@ -7,11 +7,11 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="header-half">
+        <div className="header-half-left">
           <h1 className="header-title">Alexander Zhu</h1>
         </div>
 
-        <div className="header-half">
+        <div className="header-half-right">
 
           <div className="header-options">
             <ul className="header-sidebar">
