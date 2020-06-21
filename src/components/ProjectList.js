@@ -6,6 +6,7 @@ import '../stylesheets/ProjectList.css';
 class ProjectList extends Component {
 
   // TODO: make a list of Projects from Project.js
+  // Do ^
 
   render() {
     return (
