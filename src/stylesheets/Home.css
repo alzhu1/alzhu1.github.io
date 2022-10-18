@@ -1,0 +1,18 @@
+.home {
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+}
+
+.home-title {
+  display: inline-block;
+  border-bottom: solid black 3px;
+}
+
+.home-body {
+  display: block;
+  text-align: left;
+  margin-left: 18%;
+  margin-right: 18%;
+  float: left;
+}

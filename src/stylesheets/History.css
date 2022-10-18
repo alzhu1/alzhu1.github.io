@@ -1,0 +1,10 @@
+.history {
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+}
+
+.history-title {
+  display: inline-block;
+  border-bottom: solid black 3px;
+}

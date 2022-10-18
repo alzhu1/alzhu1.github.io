@@ -6,6 +6,9 @@ set -e
 # build
 npm run build
 
+# copy 404.html file to dist
+cp 404.html ./dist/
+
 # navigate into the build output directory
 cd dist
 
