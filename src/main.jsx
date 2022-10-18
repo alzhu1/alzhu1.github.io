@@ -1,13 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './components/App'
-import Home from './components/Home'
-import History from './components/History'
-import ProjectList from './components/ProjectList'
-import './index.css'
-import Error from './components/Error'
+import App from './components/App';
+import Error from './components/Error';
+import Home from './components/Home';
+import History from './components/History';
+import ProjectList from './components/ProjectList';
+
+import './index.css';
 
 const router = createBrowserRouter([
   {
