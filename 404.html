@@ -24,7 +24,27 @@
       // Otherwise, leave pathSegmentsToKeep as 0.
       var pathSegmentsToKeep = 0;
 
+      var legacyProcessingNames = [
+        'SampleAssignment',
+        'OriginalDesign',
+        'Lightning',
+        'Chemotaxis',
+        'SnowflakeCatcher',
+        'Starfield',
+        'AsteroidsGame',
+        'SierpinskiTriangle',
+        'OriginalFractal',
+        'FractalTree',
+        'Dice',
+        'Minesweeper'
+      ];
+
       var l = window.location;
+
+      if (legacyProcessingNames.includes(l.pathname.split['/'][1])) {
+        l.replace('https://alzhu1.github.io/LegacyProcessing');
+      }
+
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
